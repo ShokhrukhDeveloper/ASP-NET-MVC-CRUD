@@ -80,7 +80,19 @@ namespace ASPNETMVCCRUD.Controllers
                 return RedirectToAction("Index");
             }
             return RedirectToAction("Index");
-        } 
+        }
+        [HttpPost]
+        public async Task<IActionResult> Delete(UpdateEmployeeViewModel model)
+        {
+            var employee=await _dbContext.Employees.FindAsync(model.Id);
+            if (employee!= null)
+            {
+                _dbContext.Employees.Remove(employee);
+                await _dbContext.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+           return RedirectToAction("Index");
+        }
     
     }
 }
