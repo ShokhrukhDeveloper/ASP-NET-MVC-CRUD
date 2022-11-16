@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\dotnet course\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\ASPNETMVCCRUD.csproj": {}
+    "C:\\Users\\shoxr\\OneDrive\\Desktop\\projects\\ASP-NET-MVC-CRUD\\ASPNETMVCCRUD\\ASPNETMVCCRUD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\dotnet course\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\ASPNETMVCCRUD.csproj": {
+    "C:\\Users\\shoxr\\OneDrive\\Desktop\\projects\\ASP-NET-MVC-CRUD\\ASPNETMVCCRUD\\ASPNETMVCCRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\dotnet course\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\ASPNETMVCCRUD.csproj",
+        "projectUniqueName": "C:\\Users\\shoxr\\OneDrive\\Desktop\\projects\\ASP-NET-MVC-CRUD\\ASPNETMVCCRUD\\ASPNETMVCCRUD.csproj",
         "projectName": "ASPNETMVCCRUD",
-        "projectPath": "C:\\Users\\user\\Desktop\\dotnet course\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\ASPNETMVCCRUD.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\dotnet course\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\obj\\",
+        "projectPath": "C:\\Users\\shoxr\\OneDrive\\Desktop\\projects\\ASP-NET-MVC-CRUD\\ASPNETMVCCRUD\\ASPNETMVCCRUD.csproj",
+        "packagesPath": "C:\\Users\\shoxr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shoxr\\OneDrive\\Desktop\\projects\\ASP-NET-MVC-CRUD\\ASPNETMVCCRUD\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shoxr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,7 +72,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -79,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
